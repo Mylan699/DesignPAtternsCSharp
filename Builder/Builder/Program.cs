@@ -1,4 +1,4 @@
-using System;
+using Builder;
 
 namespace Builder
 {
@@ -9,7 +9,7 @@ namespace Builder
             Console.WriteLine("Choisissez le format de liasse (html/pdf) :");
             string choix = Console.ReadLine()?.ToLower();
 
-            IConstructeurLiasseVehicule constructeur;
+            ConstructeurLiasseVehicule constructeur;
 
             if (choix == "html")
             {
@@ -21,9 +21,15 @@ namespace Builder
             }
 
             Directeur directeur = new Directeur(constructeur);
-            Vendeur vendeur = new Vendeur(directeur);
 
-            vendeur.GereVente("Client Test", "Informations Véhicule Test");
+            Console.WriteLine("Entrez le nom du client :");
+            string client = Console.ReadLine();
+
+            Console.WriteLine("Entrez les informations du véhicule :");
+            string informationsVehicule = Console.ReadLine();
+
+            Liasse liasse = directeur.Construit(client, informationsVehicule);
+            liasse.Imprime();
         }
     }
 }

@@ -2,9 +2,9 @@ namespace Builder
 {
     public class Directeur
     {
-        private readonly IConstructeurLiasseVehicule constructeur;
+        private readonly ConstructeurLiasseVehicule constructeur;
 
-        public Directeur(IConstructeurLiasseVehicule constructeur)
+        public Directeur(ConstructeurLiasseVehicule constructeur)
         {
             this.constructeur = constructeur;
         }
