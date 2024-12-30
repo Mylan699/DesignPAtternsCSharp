@@ -1,0 +1,9 @@
+Bon de commande PDF pour Anthony Sapet
+Demande d'immatriculation PDF pour Renault xxxx 2024 1.5 dci 
+Vendeur : Mylan 
+Adresse de facturation : Allee isistech, 38690, IsiLand
+Numéro de commande : CMD-20241230151709-2647
+Date de génération : 30/12/2024 15:17:09
+Immatriculation générée : KY-994-SE 59
+Signature du client : ___________________________
+Signature du vendeur (Mylan ) : ___________________________
