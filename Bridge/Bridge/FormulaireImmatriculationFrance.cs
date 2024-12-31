@@ -6,10 +6,4 @@ public class FormulaireImmatriculationFrance : FormulaireImmatriculation
         : base(impl)
     {
     }
-
-    public override void Afficher()
-    {
-        impl.DessinerTexte("Formulaire d'immatriculation - France");
-        impl.DessinerChamp("Numéro de plaque");
-    }
 }

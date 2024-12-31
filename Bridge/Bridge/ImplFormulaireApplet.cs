@@ -4,11 +4,11 @@ public class ImplFormulaireApplet : ImplFormulaireImmatriculation
 {
     public void DessinerTexte(string texte)
     {
-        Console.WriteLine($"[Applet] Texte : {texte}");
+        Console.WriteLine($"Texte : {texte}");
     }
 
     public void DessinerChamp(string champ)
     {
-        Console.WriteLine($"[Applet] Champ : {champ}");
+        Console.WriteLine($"Champ : {champ}");
     }
 }

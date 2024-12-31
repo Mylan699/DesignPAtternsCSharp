@@ -9,5 +9,13 @@ public abstract class FormulaireImmatriculation
         this.impl = impl;
     }
 
-    public abstract void Afficher();
+    public void Afficher(params string[] champs)
+    {
+        impl.DessinerTexte($"Formulaire d'immatriculation - {GetType().Name.Replace("FormulaireImmatriculation", "")}");
+        foreach (var champ in champs)
+        {
+            impl.DessinerChamp(champ);
+        }
+    }
 }
+
