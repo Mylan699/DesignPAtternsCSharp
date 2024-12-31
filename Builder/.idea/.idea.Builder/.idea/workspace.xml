@@ -8,9 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d63fa1b7-a33e-4dab-916c-0f897a7a5718" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Builder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Builder/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Builder/Builder.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/Builder.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Builder/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builder/obj/Debug/net8.0/Builder.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/obj/Debug/net8.0/Builder.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builder/obj/Debug/net8.0/Builder.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/obj/Debug/net8.0/Builder.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builder/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NoteCSharp.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +30,12 @@
     &quot;assignee&quot;: &quot;Mylan699&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Mylan699/DesignPatternsCSharp.git",
-    "accountId": "7013c87d-91a3-4b50-8026-6b81122b522b"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Mylan699/DesignPatternsCSharp.git&quot;,
+    &quot;accountId&quot;: &quot;7013c87d-91a3-4b50-8026-6b81122b522b&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://C:/Users/Mylan/Documents/Cours/ESI 4/DesignPatternsCsharp/Builder/Builder/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Builder/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
@@ -51,21 +52,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.Builder.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.Builder.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Builder" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -96,6 +97,7 @@
       <updated>1735563466181</updated>
       <workItem from="1735563469012" duration="7518000" />
       <workItem from="1735571136946" duration="2991000" />
+      <workItem from="1735651720336" duration="625000" />
     </task>
     <task id="LOCAL-00001" summary="Exo 1 class et interface">
       <option name="closed" value="true" />
