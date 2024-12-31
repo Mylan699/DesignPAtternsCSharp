@@ -4,6 +4,7 @@ using System.IO;
 using PdfSharpCore.Drawing;
 using PdfSharpCore.Pdf;
 
+
 namespace Builder
 {
     class Program
@@ -92,7 +93,7 @@ namespace Builder
             {
                 PdfPage page = documentPdf.AddPage();
                 XGraphics gfx = XGraphics.FromPdfPage(page);
-
+              
                 XFont font = new XFont("Arial", 12, XFontStyle.Regular);
 
                 double y = 40; 
@@ -115,7 +116,7 @@ namespace Builder
             Random random = new Random();
             string lettres1 = $"{(char)random.Next('A', 'Z' + 1)}{(char)random.Next('A', 'Z' + 1)}";
             string chiffres = random.Next(100, 999).ToString();
-            int departement = random.Next(1, 99); // Département fictif (01 à 96)
+            int departement = random.Next(1, 99); 
             string lettres2 = $"{(char)random.Next('A', 'Z' + 1)}{(char)random.Next('A', 'Z' + 1)}";
             return $"{lettres1}-{chiffres}-{lettres2} {departement:D2}";
         }
