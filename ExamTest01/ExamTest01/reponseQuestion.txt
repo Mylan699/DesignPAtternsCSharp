@@ -1,0 +1,1 @@
+Pour ajouter un noveau type de document en respectant le principe de open/closed il suffit de definir une nouvelle interface et de les inclures dans les fabriques. 
